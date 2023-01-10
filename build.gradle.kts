@@ -41,7 +41,7 @@ subprojects {
 }
 
 nexusStaging {
-    packageGroup = "net.mamoe" // from Sonatype accounts, do not change
+    packageGroup = "net.mamoe" // from Sonatype accounts, do not change 
     username = mavenCentralPublish.credentials?.sonatypeUsername
     password = mavenCentralPublish.credentials?.sonatypePassword
 }
